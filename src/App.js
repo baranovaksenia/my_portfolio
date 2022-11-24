@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import useMediaQuery from './hooks/useMediaQuery';
 import DotGroup from './scenes/DotGroup';
-import Landing from './scenes/Landing';
+import Hero from './scenes/Hero';
 import Navbar from './scenes/Navbar';
 
 const App = () => {
@@ -34,7 +34,7 @@ const App = () => {
           />
         )}
         {/* navigate to contact page */}
-        <Landing setSelectedPage={setSelectedPage} />
+        <Hero setSelectedPage={setSelectedPage} />
       </div>
     </div>
   );
