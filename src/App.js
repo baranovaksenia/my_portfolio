@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import useMediaQuery from './hooks/useMediaQuery';
+import Contact from './scenes/Contact';
 import DotGroup from './scenes/DotGroup';
 import Hero from './scenes/Hero';
 import Navbar from './scenes/Navbar';
@@ -35,6 +36,9 @@ const App = () => {
         )}
         {/* navigate to contact page */}
         <Hero setSelectedPage={setSelectedPage} />
+      </div>
+      <div className='w-5/6 mx-auto md:h-full'>
+        <Contact />
       </div>
     </div>
   );
