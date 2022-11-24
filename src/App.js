@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import useMediaQuery from './hooks/useMediaQuery';
 import Contact from './scenes/Contact';
 import DotGroup from './scenes/DotGroup';
+import Footer from './scenes/Footer';
 import Hero from './scenes/Hero';
 import Navbar from './scenes/Navbar';
 
@@ -40,6 +41,7 @@ const App = () => {
       <div className='w-5/6 mx-auto md:h-full'>
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 };
